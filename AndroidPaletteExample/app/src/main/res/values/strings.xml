@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Android Palette Example</string>
+
+    <string-array name="planets_array">
+        <item>Mercúrio</item>
+        <item>Vênus</item>
+        <item>Terra</item>
+        <item>Marte</item>
+        <item>Júpiter</item>
+        <item>Saturno</item>
+        <item>Urano</item>
+        <item>Netuno</item>
+    </string-array>
+</resources>

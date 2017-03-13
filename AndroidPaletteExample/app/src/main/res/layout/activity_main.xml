@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="com.tibaes.androidpaletteexample.MainActivity">
+
+    <Button
+        android:id="@+id/btn_widgets"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/pink_button"
+        android:drawableStart="@android:drawable/btn_star_big_off"
+        android:text="Widgets"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/pink_button"
+        android:drawableStart="@android:drawable/ic_menu_edit"
+        android:text="Text"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/pink_button"
+
+        android:drawableStart="@android:drawable/ic_menu_mapmode"
+        android:text="Images"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/pink_button"
+        android:drawableStart="@android:drawable/ic_menu_recent_history"
+        android:text="Date"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+</LinearLayout>
